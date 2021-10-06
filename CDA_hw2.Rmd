@@ -1,0 +1,42 @@
+---
+title: "Categorical Data Analysis HW2"
+author: "2021-28605 DoHyup Shin"
+date: "`r format(Sys.Date())`"
+output:
+  pdf_document: default
+  html_document: default
+---
+---
+
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo=F, fig.align = "center", message=F, warning=F, fig.height = 8, cache=T, dpi = 300)
+```
+
+
+## Problem 1.
+Consider a sequence of n independent trials with n occurring in category $j, \;j = 1, 2, \dots, c$
+Let $\pi$ is the probability that the outcome is in category $j$. For testing $H : \pi_j= \pi_{j0}, j = 1, 2, \dots, c$, derive the Wald test, likelihood ratio test and score test.
+
+### Solution
+
+## Problem 2.
+Suppose that in a certain country, people are supposed to be selected randomly for jury duty. A civil rights group sues the country, claiming that different ethnicities are not represented proportionally for jury duty. Suppose that the ethnicities of the pool in the country who are eligible for jury duty is as follows:
+
+|Ethnicity|White|Black|Native American|Asian and pacific Islander|Other|
+|--| :-: | :-:| :-: |:-: |:-:|
+|Fraction of Juror pool|80.29%|12.06%|0.79%|2.92%|3.94%|
+
+The previous year, 3000 persons were selected for jury duty; their ethnicities were as follows:
+
+|Ethnicity|White|Black|Native American|Asian and pacific Islander|Other|
+|--| :-: | :-:| :-: |:-: |:-:|
+|Fraction of Juror pool|2503|277|23|66|131|
+The court retains you as an independent expert to assess the statistical evidence that there was discrimination. You propose to formulate the issue as an hypothesis test. The null hypothesis is that the people selected for jury duty are a simple random sample from the population of potential jurors.
+Perform this test using Pearson chi-squared, Wald, LR and Score test .
+### Solution
+
+
+## Problem 3.
+In an experiment on chlorophyll inheritance in maize, for 1103 seedlings of self-fertilized heterozygous green plants, 854 seedlings were green and 249 were yellow. Theory predicts the ratio of green to yellow is 3:1. Find the p-value for testing the hypothesis that 3:1 is the true ratio using the Wald test, score test and likelihood ratio test, and construct 95% confidence interval.
