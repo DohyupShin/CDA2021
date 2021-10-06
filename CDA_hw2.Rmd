@@ -20,6 +20,8 @@ Consider a sequence of n independent trials with n occurring in category $j, \;j
 Let $\pi$ is the probability that the outcome is in category $j$. For testing $H : \pi_j= \pi_{j0}, j = 1, 2, \dots, c$, derive the Wald test, likelihood ratio test and score test.
 
 ### Solution
+Let $\textbf{X} = (x_1, x_2, \dots, x_c) \sim Multinomial(n, \mathbb{\pi})$ where $\mathbb{\pi} = (\pi_1,\pi_2, \dots, \pi_c)$ with $\sum_{i=1}^{c}\pi_i = 1$ and $\sum_{i=1}^{c}x_i = n$. Here, $x_i$ is the same as above $n_i$.
+
 
 ## Problem 2.
 Suppose that in a certain country, people are supposed to be selected randomly for jury duty. A civil rights group sues the country, claiming that different ethnicities are not represented proportionally for jury duty. Suppose that the ethnicities of the pool in the country who are eligible for jury duty is as follows:
@@ -34,8 +36,15 @@ The previous year, 3000 persons were selected for jury duty; their ethnicities w
 |--| :-: | :-:| :-: |:-: |:-:|
 |Fraction of Juror pool|2503|277|23|66|131|
 The court retains you as an independent expert to assess the statistical evidence that there was discrimination. You propose to formulate the issue as an hypothesis test. The null hypothesis is that the people selected for jury duty are a simple random sample from the population of potential jurors.
-Perform this test using Pearson chi-squared, Wald, LR and Score test .
+Perform this test using Pearson chi-squared, Wald, LR and Score test.
+
 ### Solution
+The proportion of each part is as follows.
+
+|Ethnicity|White|Black|Native American|Asian and pacific Islander|Other|
+|--| :-: | :-:| :-: |:-: |:-:|
+|Fraction of Juror pool|0.834333333|0.092333333|0.007666667|0.022000000|0.043666667|
+   
 
 
 ## Problem 3.
